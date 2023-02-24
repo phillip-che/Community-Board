@@ -5,7 +5,9 @@ const Card = (props) => {
         <div className="Card">
             <img className="image" src={props.img} />
             <h2>{props.name}</h2>
-            <button href={props.link}>Visit Website</button>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+                <button>Visit Website</button>
+            </a>
         </div>
     )
 }

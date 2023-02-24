@@ -1,0 +1,13 @@
+import React from "react";
+
+const Card = (props) => {
+    return (
+        <div className="Card">
+            <img className="image" src={props.img} />
+            <h2>{props.name}</h2>
+            <button href={props.link}>Visit Website</button>
+        </div>
+    )
+}
+
+export default Card;
